@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [This is the main testing suit.]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test 1(failed)">
+    <classes>
+      <class name="tests.A20_7_FillingTheForm">
+        <methods>
+          <include name="FinalTestView"/>
+          <include name="SetUp"/>
+          <include name="AfterClass"/>
+        </methods>
+      </class> <!-- tests.A20_7_FillingTheForm -->
+    </classes>
+  </test> <!-- Test 1(failed) -->
+</suite> <!-- Failed suite [This is the main testing suit.] -->
